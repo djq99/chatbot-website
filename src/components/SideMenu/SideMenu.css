@@ -1,0 +1,30 @@
+.side-menu {
+    /* Fixed-width vertical menu on the left */
+    width: 200px;
+    background-color: #fafafa; /* Slightly lighter background */
+    border-right: 1px solid #ccc;
+    padding: 1rem 0;
+  }
+  
+  .menu-item {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 1rem;
+    outline: none;
+    transition: background-color 0.2s;
+  }
+  
+  .menu-item:hover {
+    background-color: #eee; /* Hover state */
+  }
+  
+  .menu-item.active {
+    background-color: #ddd; /* Active/selected state */
+    font-weight: bold;
+  }
+  

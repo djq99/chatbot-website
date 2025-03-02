@@ -1,0 +1,30 @@
+.navbar {
+    /* Horizontal bar at the top */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5; /* Light gray background */
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .navbar-logo {
+    /* Logo area (left side) */
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-search {
+    /* Search bar (right side) */
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    width: 200px; /* Adjust as needed */
+    transition: box-shadow 0.2s;
+  }
+  
+  .navbar-search:focus {
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.3);
+  }
+  
